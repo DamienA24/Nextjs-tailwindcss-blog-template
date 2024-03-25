@@ -33,7 +33,7 @@ export const metadata = {
     url: siteMetadata.siteUrl,
     siteName: siteMetadata.title,
     images: [siteMetadata.socialBanner],
-    locale: "en_US",
+    locale: "fr_FR",
     type: "website",
   },
   robots: {
