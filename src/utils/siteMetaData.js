@@ -8,7 +8,7 @@ const siteMetadata = {
   language: "fr-fr",
   theme: "system", // system, dark or light
   siteUrl: "https://www.eveilcurieux.com", // your website URL
-  siteLogo: "/cactus-bg.png",
+  siteLogo: "/cactus-bg.jpg",
   socialBanner: "/social-banner.png", // add social banner in the public folder
   locale: "fr-FR",
   exclude: ["/about"],
