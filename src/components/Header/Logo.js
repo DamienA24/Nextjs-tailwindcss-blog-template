@@ -8,7 +8,7 @@ const Logo = () => {
       <div className=" w-12 md:w-16 rounded-full overflow-hidden border border-solid border-dark dark:border-gray  mr-2 md:mr-4">
         <Image
           src={profileImg}
-          alt="CodeBucks logo"
+          alt="logo"
           className="w-full h-auto rounded-full"
           sizes="20vw"
           priority
