@@ -112,7 +112,7 @@ export default function BlogPage({ params }) {
             src={blog.image.filePath.replace("../public", "")}
             placeholder="blur"
             blurDataURL={blog.image.blurhashDataUrl}
-            alt={blog.title}
+            alt={blog.alt}
             width={blog.image.width}
             height={blog.image.height}
             className="aspect-square w-full h-full object-cover object-center"
