@@ -81,5 +81,12 @@ code[data-line-numbers-max-digits="3"] > [data-line]::before {
 }
 
 .image-affi {
-  width: 100%;
+  width: 50%;
+  margin: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .image-affi {
+    width: 100%;
+  }
 }
