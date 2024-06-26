@@ -85,6 +85,12 @@ export default function RootLayout({ children }) {
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-54KXSP4Q');`}
         </Script>
+        <Script
+          defer
+          data-domain="eveilcurieux.com"
+          src="https://plausible.io/js/script.js"
+        ></Script>
+
         <Header />
         {children}
         <SpeedInsights />
