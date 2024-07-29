@@ -26,10 +26,8 @@ export async function generateStaticParams() {
 
 export async function generateMetadata({ params }) {
   return {
-    title: `${params.slug.replaceAll("-", " ")} Blogs`,
-    description: `Learn more about ${
-      params.slug === "all" ? "web development" : params.slug
-    } through our collection of expert blogs and tutorials`,
+    title: `Blog ${params.slug.replaceAll("-", " ")}`,
+    description: `Apprenez-en plus sur ${params.slug} grâce à notre collection d'articles de blog et de tutoriels d'experts`,
   };
 }
 
@@ -63,7 +61,8 @@ const CategoryPage = ({ params }) => {
           #{params.slug}
         </h1>
         <span className="mt-2 inline-block">
-          Discover more categories and expand your knowledge!
+          Découvrez d'autres catégories montessori et élargissez vos
+          connaissances !{" "}
         </span>
       </div>
       <Categories categories={allCategories} currentSlug={params.slug} />
